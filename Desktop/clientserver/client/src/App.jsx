@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import LongPulling from "./LongPulling.jsx";
-import EventSourcing from "./EventSourcing";
 import WebSocketTest from "./WebSocketTest.jsx";
 
 function App() {
