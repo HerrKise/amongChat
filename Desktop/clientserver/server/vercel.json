@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "./websocket.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
